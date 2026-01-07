@@ -1,0 +1,15 @@
+@use "../utils/variables" as v;
+
+header {
+  background-color: v.$color-header;
+  position: sticky;
+  top: 0;
+  left: 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: v.$spacing-md 0;
+  }
+}

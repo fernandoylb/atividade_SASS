@@ -1,0 +1,15 @@
+@use "../utils/variables" as v;
+
+.menu {
+  display: flex;
+
+  li {
+    font-weight: bold;
+    margin-left: 24px;
+
+    a {
+      color: v.$color-white;
+      text-decoration: none;
+    }
+  }
+}

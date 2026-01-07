@@ -1,0 +1,5 @@
+@use "../utils/variables" as v;
+
+section {
+  padding: v.$spacing-xl 0;
+}
